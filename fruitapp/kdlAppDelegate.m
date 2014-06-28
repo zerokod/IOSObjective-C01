@@ -7,6 +7,9 @@
 //
 
 #import "kdlAppDelegate.h"
+#import "InsertViewController.h"
+#import "ListViewController.h"
+#import "InsertDelegate.h"
 
 @implementation kdlAppDelegate
 
@@ -15,6 +18,38 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    
+    NSMutableArray *controllers = [[NSMutableArray alloc] initWithCapacity:2];
+    _tabBarController = [[UITabBarController alloc] init];
+    
+   
+    ListViewController *listViewController = [[ListViewController alloc]initWithNibName:nil bundle:nil];
+    listViewController.title = @"Lista";
+    listViewController.tabBarItem.image= [UIImage imageNamed:@"ipnotico.png"];
+    
+    
+    
+    InsertViewController *insertViewController = [[InsertViewController alloc] initWithNibName:nil bundle:nil];
+    insertViewController.title= @"Inserimento";
+    insertViewController.tabBarItem.image = [UIImage imageNamed:@"tempo.png"];
+    
+    insertViewController.delegate = listViewController;
+    
+    
+    [controllers addObject:insertViewController];
+    [controllers addObject:listViewController];
+    _tabBarController.viewControllers=controllers;
+    [[self window ] setRootViewController:_tabBarController];
+    
+    //Fruit *fruit = [[ Fruit alloc] initWithName:nil origin:nil description:nil image:nil];
+   
+    
+    //FirstViewController * myViewController = [[FirstViewController alloc]initWithNibName:nil bundle:nil];
+    
+    //self.window.rootViewController = myViewController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

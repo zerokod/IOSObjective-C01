@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630CCD551688E99B005CE1A0 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = 630CCD541688E99B005CE1A0 /* Fruit.m */; };
 		63A377D81688A1A10046F83F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A377D71688A1A10046F83F /* UIKit.framework */; };
 		63A377DA1688A1A10046F83F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A377D91688A1A10046F83F /* Foundation.framework */; };
 		63A377DC1688A1A10046F83F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A377DB1688A1A10046F83F /* CoreGraphics.framework */; };
@@ -16,9 +17,21 @@
 		63A377EA1688A1A10046F83F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A377E91688A1A10046F83F /* Default.png */; };
 		63A377EC1688A1A10046F83F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A377EB1688A1A10046F83F /* Default@2x.png */; };
 		63A377EE1688A1A10046F83F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A377ED1688A1A10046F83F /* Default-568h@2x.png */; };
+		63A377F61688A20E0046F83F /* InsertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A377F51688A20E0046F83F /* InsertViewController.m */; };
+		63A377F91688A2440046F83F /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A377F81688A2440046F83F /* ListViewController.m */; };
+		63A378141688BC8C0046F83F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A378131688BC8C0046F83F /* FirstViewController.m */; };
+		63AA22961688C8730036E2BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AA22951688C8730036E2BA /* QuartzCore.framework */; };
+		63AA22A01688CD770036E2BA /* ipnotico.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA229E1688CD760036E2BA /* ipnotico.png */; };
+		63AA22A11688CD770036E2BA /* tempo.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA229F1688CD760036E2BA /* tempo.png */; };
+		63AA22A51688CD8A0036E2BA /* arancia.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA22A21688CD8A0036E2BA /* arancia.png */; };
+		63AA22A61688CD8A0036E2BA /* mela.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA22A31688CD8A0036E2BA /* mela.png */; };
+		63AA22A71688CD8A0036E2BA /* pera.png in Resources */ = {isa = PBXBuildFile; fileRef = 63AA22A41688CD8A0036E2BA /* pera.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		630CCD531688E99B005CE1A0 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		630CCD541688E99B005CE1A0 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		636491761689F9E900ACD7EE /* InsertDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertDelegate.h; sourceTree = "<group>"; };
 		63A377D31688A1A10046F83F /* fruitapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fruitapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A377D71688A1A10046F83F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63A377D91688A1A10046F83F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -32,6 +45,18 @@
 		63A377E91688A1A10046F83F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		63A377EB1688A1A10046F83F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63A377ED1688A1A10046F83F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63A377F41688A20E0046F83F /* InsertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertViewController.h; sourceTree = "<group>"; };
+		63A377F51688A20E0046F83F /* InsertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertViewController.m; sourceTree = "<group>"; };
+		63A377F71688A2440046F83F /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		63A377F81688A2440046F83F /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		63A378121688BC8C0046F83F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		63A378131688BC8C0046F83F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		63AA22951688C8730036E2BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63AA229E1688CD760036E2BA /* ipnotico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipnotico.png; sourceTree = "<group>"; };
+		63AA229F1688CD760036E2BA /* tempo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tempo.png; sourceTree = "<group>"; };
+		63AA22A21688CD8A0036E2BA /* arancia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arancia.png; sourceTree = "<group>"; };
+		63AA22A31688CD8A0036E2BA /* mela.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mela.png; sourceTree = "<group>"; };
+		63AA22A41688CD8A0036E2BA /* pera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pera.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AA22961688C8730036E2BA /* QuartzCore.framework in Frameworks */,
 				63A377D81688A1A10046F83F /* UIKit.framework in Frameworks */,
 				63A377DA1688A1A10046F83F /* Foundation.framework in Frameworks */,
 				63A377DC1688A1A10046F83F /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +77,7 @@
 		63A377C81688A1A10046F83F = {
 			isa = PBXGroup;
 			children = (
+				63AA22951688C8730036E2BA /* QuartzCore.framework */,
 				63A377DD1688A1A10046F83F /* fruitapp */,
 				63A377D61688A1A10046F83F /* Frameworks */,
 				63A377D41688A1A10046F83F /* Products */,
@@ -78,9 +105,23 @@
 		63A377DD1688A1A10046F83F /* fruitapp */ = {
 			isa = PBXGroup;
 			children = (
+				63AA22A21688CD8A0036E2BA /* arancia.png */,
+				63AA22A31688CD8A0036E2BA /* mela.png */,
+				63AA22A41688CD8A0036E2BA /* pera.png */,
+				63AA229E1688CD760036E2BA /* ipnotico.png */,
+				63AA229F1688CD760036E2BA /* tempo.png */,
 				63A377E61688A1A10046F83F /* kdlAppDelegate.h */,
 				63A377E71688A1A10046F83F /* kdlAppDelegate.m */,
 				63A377DE1688A1A10046F83F /* Supporting Files */,
+				63A377F41688A20E0046F83F /* InsertViewController.h */,
+				63A377F51688A20E0046F83F /* InsertViewController.m */,
+				63A377F71688A2440046F83F /* ListViewController.h */,
+				63A377F81688A2440046F83F /* ListViewController.m */,
+				63A378121688BC8C0046F83F /* FirstViewController.h */,
+				63A378131688BC8C0046F83F /* FirstViewController.m */,
+				630CCD531688E99B005CE1A0 /* Fruit.h */,
+				630CCD541688E99B005CE1A0 /* Fruit.m */,
+				636491761689F9E900ACD7EE /* InsertDelegate.h */,
 			);
 			path = fruitapp;
 			sourceTree = "<group>";
@@ -155,6 +196,11 @@
 				63A377EA1688A1A10046F83F /* Default.png in Resources */,
 				63A377EC1688A1A10046F83F /* Default@2x.png in Resources */,
 				63A377EE1688A1A10046F83F /* Default-568h@2x.png in Resources */,
+				63AA22A01688CD770036E2BA /* ipnotico.png in Resources */,
+				63AA22A11688CD770036E2BA /* tempo.png in Resources */,
+				63AA22A51688CD8A0036E2BA /* arancia.png in Resources */,
+				63AA22A61688CD8A0036E2BA /* mela.png in Resources */,
+				63AA22A71688CD8A0036E2BA /* pera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +213,10 @@
 			files = (
 				63A377E41688A1A10046F83F /* main.m in Sources */,
 				63A377E81688A1A10046F83F /* kdlAppDelegate.m in Sources */,
+				63A377F61688A20E0046F83F /* InsertViewController.m in Sources */,
+				63A377F91688A2440046F83F /* ListViewController.m in Sources */,
+				63A378141688BC8C0046F83F /* FirstViewController.m in Sources */,
+				630CCD551688E99B005CE1A0 /* Fruit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +325,7 @@
 				63A377F31688A1A10046F83F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

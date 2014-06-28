@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface kdlAppDelegate : UIResponder <UIApplicationDelegate>
+@interface kdlAppDelegate : UIResponder <UIApplicationDelegate>{
+    UITabBarController *_tabBarController;
+    
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
